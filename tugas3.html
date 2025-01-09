@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website dengan Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-danger text-white text-center p-3">
+        <h1>Brand</h1>
+        <nav>
+            <a href="#" class="text-white mx-2">Header</a>
+            <a href="#" class="text-white mx-2">Biodata</a>
+            <a href="#" class="text-white mx-2">Portofolio</a>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <section class="row align-items-center">
+            <div class="col-md-6">
+                <h1>Selamat Datang di Website Saya</h1>
+                <p>Ini adalah contoh header dengan dua kolom.</p>
+                <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Pelajari Lebih Lanjut</button>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src=""C:\Users\azis\Downloads\WhatsApp Image 2023-08-18 at 13.44.13.jpeg"" class="img-fluid rounded" alt="Foto Profil">
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <h2 class="text-center">About Me</h2>
+            <div class="row">
+                <div class="col-md-4">Full Name: Azis </div>
+                <div class="col-md-4">Education: S1 Sistem informasi</div>
+                <div class="col-md-4">Pekerjaan: Programmer</div>
+                <div class="col-md-4">Contact: Azis@gmail.com</div>
+                <div class="col-md-4">Hobi: Membaca, Coding</div>
+                <div class="col-md-4">Alamat: Kudus</div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <h2 class="text-center">Portofolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/350x200" class="img-fluid" alt="Project 1">
+                    <p>Proyek 1: Deskripsi proyek 1.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/350x200" class="img-fluid" alt="Project 2">
+                    <p>Proyek 2: Deskripsi proyek 2.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/350x200" class="img-fluid" alt="Project 3">
+                    <p>Proyek 3: Deskripsi proyek 3.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Informasi Lebih Lanjut</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Ini adalah informasi tambahan yang ditampilkan dalam pop-up modal.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center p-3 bg-danger text-white mt-5">
+        &copy; 2025 Azis. All rights reserved.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
